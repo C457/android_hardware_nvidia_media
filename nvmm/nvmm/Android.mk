@@ -11,7 +11,8 @@ LOCAL_SHARED_LIBRARIES := \
     libnvrm \
     libnvrm_graphics \
     libnvmm_utils \
-    ibnvmmtransport
+
+LOCAL_STATIC_LIBRARIES := libnvmmtransport
 
 include $(BUILD_SHARED_LIBRARY)
 -include $(addprefix $(LOCAL_PATH)/, $(addsuffix /Android.mk, blocks utils contentpipe transport))
