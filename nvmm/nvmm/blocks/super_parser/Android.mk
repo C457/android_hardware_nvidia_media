@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-include $(LOCAL_PATH)/../../Androidcommon.mk
+include $(LOCAL_PATH)/../../Android.common.mk
 
 LOCAL_MODULE := libnv_parser
 
