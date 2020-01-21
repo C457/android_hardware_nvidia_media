@@ -1,9 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+include $(LOCAL_PATH)/Android.common.mk
 
 LOCAL_MODULE := libnvmm
 
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/../include
 LOCAL_SRC_FILES += nvmm.c
 
 LOCAL_SHARED_LIBRARIES := \

@@ -21,5 +21,7 @@ LOCAL_CFLAGS += -DOFFSET_DISABLED=1
 endif
 
 LOCAL_C_INCLUDES += \
+    $(NVMM_PATH)/include \
+    $(NVMM_PATH)/../include \
     hardware/nvidia/core-headers \
-    $(LOCAL_PATH)/../include
+    hardware/nvidia/media/openmax/include
