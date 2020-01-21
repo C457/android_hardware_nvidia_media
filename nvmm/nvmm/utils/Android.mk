@@ -22,6 +22,7 @@ LOCAL_SRC_FILES := \
     nvmm_sock_linux.c
 
 LOCAL_SHARED_LIBRARIES := \
+    liblog \
     libnvos \
     libnvrm \
     libnvrm_graphics \

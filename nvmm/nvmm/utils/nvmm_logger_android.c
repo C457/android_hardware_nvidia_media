@@ -10,7 +10,7 @@
 
 #include "nvmm_logger.h"
 #include "nvmm_logger_internal.h"
-#include <cutils/log.h>
+#include <log/log.h>
 
 void NvLoggerPrintf(NvLoggerLevel Level, const char* pClientTag, const char* pFormat, va_list ap)
 {
