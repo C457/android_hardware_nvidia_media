@@ -21,4 +21,5 @@ LOCAL_CFLAGS += -DOFFSET_DISABLED=1
 endif
 
 LOCAL_C_INCLUDES += \
+    hardware/nvidia/core-headers \
     $(LOCAL_PATH)/../include
