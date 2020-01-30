@@ -2,7 +2,6 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libnvomxilclient
-LOCAL_NO_DEFAULT_COMPILER_FLAGS := true
 
 LOCAL_STATIC_LIBRARIES += libnvfxmath
 
