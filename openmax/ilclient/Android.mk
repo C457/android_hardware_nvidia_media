@@ -13,7 +13,8 @@ LOCAL_CFLAGS += -DOMXVERSION=2
 
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/../include/openmax/il \
-    $(LOCAL_PATH)/../include/openmax/ilclient
+    $(LOCAL_PATH)/../include/openmax/ilclient \
+    hardware/nvidia/core-headers
 
 LOCAL_SRC_FILES := \
     nvxrecordgraph.c \
