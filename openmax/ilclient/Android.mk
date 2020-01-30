@@ -12,6 +12,7 @@ LOCAL_CFLAGS += -D__OMX_EXPORTS
 LOCAL_CFLAGS += -DOMXVERSION=2
 
 LOCAL_C_INCLUDES := \
+    $(LOCAL_PATH)/../../nvmm/include \
     $(LOCAL_PATH)/../include/openmax/il \
     $(LOCAL_PATH)/../include/openmax/ilclient \
     hardware/nvidia/core-headers
